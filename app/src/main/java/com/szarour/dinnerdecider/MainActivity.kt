@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
             if (foodList.isNotEmpty()) {
                 val random = Random().nextInt(foodList.size)
                 selectedFoodTxt.text = foodList[random]
-            } else selectedFoodTxt.text = "vide"
+            } else selectedFoodTxt.text = ""
         }
     }
 }
